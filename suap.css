@@ -75,16 +75,25 @@ form label{
 }
 
 form input{
-    background-color: #fff;
+    background-color: #ddd;
     padding: 15px;
+    border: 2px solid #fff;
     border-radius: 5px;
-    border-style: none;
     width: 170%;
     align-self: center;
 }
 
 form input:focus-visible{
-    outline: 2px solid rgb(5, 240, 130);
+    outline: 3px solid rgb(5, 240, 130);
+}
+
+#eye{
+    width: 15px;
+    margin-left: 125%;
+    margin-top: -33%;
+    padding: 18px 9px;
+    cursor: pointer;
+    background-color: #fff;
 }
 
 form  button{
