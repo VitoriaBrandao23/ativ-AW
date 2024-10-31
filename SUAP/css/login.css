@@ -10,12 +10,14 @@ body{
     display: flex;
     margin-top: 45px;
     background-color: rgb(52, 99, 96);
+    width: 100vw;
+    height: 90vh;
 }
 
 #line{
-    border-left: 2px solid rgb(5, 240, 130);
-    margin-left: 130px;
-    height: 600px;
+    border-left: 3px solid rgb(5, 240, 130);
+    margin-left: 10%;
+    height: 650px;
 }
 
 .left{
@@ -23,12 +25,12 @@ body{
 }
 
 #img1{
-    width: 28%;
+    width: 20%;
 }
 
 .left p{
-    margin-top: 35px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
     color: #fff;
     font-family: "Open Sans";
     font-size: 23px;
@@ -42,8 +44,8 @@ body{
 
 .right{
     background-color: rgba(28, 56, 53, 0.493);
-    padding: 95px;
-    margin-left: 200px;
+    padding: 120px;
+    margin-left: 100px;
     border-radius: 20px;
 }
 
